@@ -1444,5 +1444,11 @@
   "upgradeBrowser": "Please upgrade to the latest version of Chrome for the best experience.",
   "will be moved to Trash": "{{title}} will be moved to trash",
   "will delete member": "will delete member",
-  "Type '/' for commands, 'space' for AI": "Type '/' for commands, 'space' for AI"
+  "com.affine.cmdk.affine.navigation.goto-collection-list": "Go to Collection List",
+  "com.affine.cmdk.affine.navigation.goto-tag-list": "Go to Tag List",
+  "Bi-Directional Links": "Bi-Directional Links",
+  "Hide": "Hide",
+  "Show": "Show",
+  "Backlinks": "Backlinks",
+  "Outgoing links": "Outgoing links"
 }

@@ -1442,5 +1442,11 @@
   "upgradeBrowser": "请升级至最新版Chrome浏览器以获得最佳体验。",
   "will be moved to Trash": "{{title}} 将被移到垃圾箱",
   "will delete member": "将删除成员",
-  "Type '/' for commands, 'space' for AI": "输入 '/' 选择, 按空格打开 AI"
+  "com.affine.cmdk.affine.navigation.goto-collection-list": "精选列表",
+  "com.affine.cmdk.affine.navigation.goto-tag-list": "标签列表",
+  "Bi-Directional Links": "双向链接",
+  "Hide": "隐藏",
+  "Show": "查看",
+  "Backlinks": "反向链接",
+  "Outgoing links": "正向链接"
 }

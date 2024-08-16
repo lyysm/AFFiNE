@@ -1,4 +1,5 @@
 import { DocLinksService } from '@affine/core/modules/doc-link';
+import { useI18n } from '@affine/i18n';
 import {
   useLiveData,
   useServices,
@@ -22,7 +23,7 @@ export const BiDirectionalLinkPanel = () => {
   const handleClickShow = useCallback(() => {
     setShow(!show);
   }, [show]);
-
+  const t = useI18n();
   return (
     <div className={styles.container}>
       {!show && (
@@ -32,9 +33,9 @@ export const BiDirectionalLinkPanel = () => {
       )}
 
       <div className={styles.titleLine}>
-        <div className={styles.title}>Bi-Directional Links</div>
+        <div className={styles.title}>{t['Bi-Directional Links']()}</div>
         <div className={styles.showButton} onClick={handleClickShow}>
-          {show ? 'Hide' : 'Show'}
+          {show ? t['Hide']() : t['Show']()}
         </div>
       </div>
 
@@ -45,7 +46,7 @@ export const BiDirectionalLinkPanel = () => {
           </div>
           <div className={styles.linksContainer}>
             <div className={styles.linksTitles}>
-              Backlinks · {backlinks.length}
+              {t['Backlinks']()} · {backlinks.length}
             </div>
             {backlinks.map(link => (
               <div key={link.docId} className={styles.link}>
@@ -59,7 +60,7 @@ export const BiDirectionalLinkPanel = () => {
           </div>
           <div className={styles.linksContainer}>
             <div className={styles.linksTitles}>
-              Outgoing links · {links.length}
+              {t['Outgoing links']()} · {links.length}
             </div>
             {links.map(link => (
               <div key={link.docId} className={styles.link}>
