@@ -1443,5 +1443,6 @@
   "unnamed": "unnamed",
   "upgradeBrowser": "Please upgrade to the latest version of Chrome for the best experience.",
   "will be moved to Trash": "{{title}} will be moved to trash",
-  "will delete member": "will delete member"
+  "will delete member": "will delete member",
+  "Type '/' for commands, 'space' for AI": "Type '/' for commands, 'space' for AI"
 }

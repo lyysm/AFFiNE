@@ -1441,5 +1441,6 @@
   "unnamed": "未命名",
   "upgradeBrowser": "请升级至最新版Chrome浏览器以获得最佳体验。",
   "will be moved to Trash": "{{title}} 将被移到垃圾箱",
-  "will delete member": "将删除成员"
+  "will delete member": "将删除成员",
+  "Type '/' for commands, 'space' for AI": "输入 '/' 选择, 按空格打开 AI"
 }
